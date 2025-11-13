@@ -25,3 +25,6 @@ anaconda_projects/
 !notebooks/**/*.ipynb
 !requirements.txt
 !readme.md
+!config/
+!config/**
+
