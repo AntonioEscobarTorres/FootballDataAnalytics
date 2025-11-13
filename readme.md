@@ -1,12 +1,17 @@
-# Create a virtual environment
+## 🚀 Getting Started
+
+Create and activate a virtual environment, then install the dependencies:
+
+```bash
+# Create virtual environment
 python -m venv venv
 
-# Activate the environment
-source venv/bin/activate        # On macOS/Linux
-venv\Scripts\activate           # On Windows
+# Activate it
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Launch Jupyter Lab and open the notebook
-jupyter lab path/to/the_notebook.ipynb
+# Launch Jupyter Lab
+jupyter lab <path/to/notebook.ipynb>
